@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Magic Cilium Policy Lab</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Magic Cilium Policy Lab</h1>
+    <div class="columns">
+      <div class="column">
+        <h2>Endpoints YAML</h2>
+        <textarea id="endpoints" rows="18"></textarea>
+      </div>
+      <div class="column">
+        <h2>Policy YAML</h2>
+        <textarea id="policies" rows="18"></textarea>
+      </div>
+    </div>
+
+    <button id="run">Run Analysis</button>
+
+    <h2>Decisions</h2>
+    <div id="decisions"></div>
+
+    <h2>Graph</h2>
+    <div id="graph"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,14 @@
+endpoints:
+  - name: frontend
+    labels:
+      app: frontend
+      k8s:io.kubernetes.pod.namespace: shop
+  - name: backend
+    labels:
+      app: backend
+      k8s:io.kubernetes.pod.namespace: shop
+  - name: database
+    labels:
+      app: database
+      k8s:io.kubernetes.pod.namespace: shop
+
